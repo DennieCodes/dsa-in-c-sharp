@@ -1,0 +1,33 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore user-specific files
+*.userprefs
+*.suo
+*.user
+
+# Ignore logs and other generated files
+*.log
+*.bak
+*.cache
+*.tmp
+
+# Ignore ReSharper files
+_ReSharper*/
+*.resharper*
+*.DotSettings.user
+
+# Ignore Visual Studio Code settings
+.vscode/
