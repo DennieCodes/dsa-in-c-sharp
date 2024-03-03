@@ -4,8 +4,8 @@ class DataStructuresAndAlgorithmsInCSharp
 {
   static void Main(string[] args)
   {
-    int result = SlidingWindows.Result(1);
-
-    Console.WriteLine(result);
+    Console.WriteLine(
+      SlidingWindows.Result(1)
+    );
   }
 }
